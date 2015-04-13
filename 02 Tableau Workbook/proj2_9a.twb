@@ -1,0 +1,887 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<workbook source-platform='win' version='8.3' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <!-- build 8300.15.0219.2230                                -->
+  <preferences>
+  </preferences>
+  <datasources>
+    <datasource caption='birthwt_lab12_2' inline='true' name='textscan.42106.866740949074' version='8.3'>
+      <connection class='textscan' directory='C:/Users/willieman/Desktop/Skool/College Homework/_Senior Year/Spring 2015/CS 329e/DataVisualization/DV_TableauProject2/00 Doc' filename='birthwt_lab12_2.csv'>
+        <relation name='birthwt_lab12_2#csv' table='[birthwt_lab12_2#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='ID' ordinal='0' />
+            <column datatype='string' name='low' ordinal='1' />
+            <column datatype='integer' name='age' ordinal='2' />
+            <column datatype='integer' name='lwt' ordinal='3' />
+            <column datatype='string' name='race' ordinal='4' />
+            <column datatype='string' name='smoke' ordinal='5' />
+            <column datatype='integer' name='ptl' ordinal='6' />
+            <column datatype='string' name='ht' ordinal='7' />
+            <column datatype='string' name='ui' ordinal='8' />
+            <column datatype='integer' name='ftv' ordinal='9' />
+            <column datatype='integer' name='bwt' ordinal='10' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>ID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ID]</local-name>
+            <parent-name>[birthwt_lab12_2#csv]</parent-name>
+            <remote-alias>ID</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>low</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[low]</local-name>
+            <parent-name>[birthwt_lab12_2#csv]</parent-name>
+            <remote-alias>low</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>age</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[age]</local-name>
+            <parent-name>[birthwt_lab12_2#csv]</parent-name>
+            <remote-alias>age</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>lwt</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[lwt]</local-name>
+            <parent-name>[birthwt_lab12_2#csv]</parent-name>
+            <remote-alias>lwt</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>race</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[race]</local-name>
+            <parent-name>[birthwt_lab12_2#csv]</parent-name>
+            <remote-alias>race</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>smoke</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[smoke]</local-name>
+            <parent-name>[birthwt_lab12_2#csv]</parent-name>
+            <remote-alias>smoke</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ptl</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ptl]</local-name>
+            <parent-name>[birthwt_lab12_2#csv]</parent-name>
+            <remote-alias>ptl</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ht</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ht]</local-name>
+            <parent-name>[birthwt_lab12_2#csv]</parent-name>
+            <remote-alias>ht</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ui</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ui]</local-name>
+            <parent-name>[birthwt_lab12_2#csv]</parent-name>
+            <remote-alias>ui</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ftv</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ftv]</local-name>
+            <parent-name>[birthwt_lab12_2#csv]</parent-name>
+            <remote-alias>ftv</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>bwt</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[bwt]</local-name>
+            <parent-name>[birthwt_lab12_2#csv]</parent-name>
+            <remote-alias>bwt</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name></remote-name>
+            <remote-type>0</remote-type>
+            <parent-name>[birthwt_lab12_2#csv]</parent-name>
+            <remote-alias></remote-alias>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='BWT RANK' datatype='integer' name='[Calculation_8410412205326660]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='RANK(SUM([bwt] ),&apos;asc&apos; )' scope-isolation='false'>
+          <table-calc ordering-type='Rows' />
+        </calculation>
+      </column>
+      <column datatype='integer' name='[ID]' role='dimension' type='ordinal'>
+      </column>
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column caption='Age' datatype='integer' name='[age]' role='measure' type='quantitative'>
+      </column>
+      <column caption='Bwt' datatype='integer' name='[bwt]' role='measure' type='quantitative'>
+      </column>
+      <column caption='Ftv' datatype='integer' name='[ftv]' role='measure' type='quantitative'>
+      </column>
+      <column caption='Ht' datatype='string' name='[ht]' role='dimension' type='nominal'>
+      </column>
+      <column caption='Low' datatype='string' name='[low]' role='dimension' type='nominal'>
+      </column>
+      <column caption='Lwt' datatype='integer' name='[lwt]' role='measure' type='quantitative'>
+      </column>
+      <column caption='Ptl' datatype='integer' name='[ptl]' role='measure' type='quantitative'>
+      </column>
+      <column caption='Race' datatype='string' name='[race]' role='dimension' type='nominal'>
+      </column>
+      <column caption='Smoke' datatype='string' name='[smoke]' role='dimension' type='nominal'>
+      </column>
+      <column caption='Ui' datatype='string' name='[ui]' role='dimension' type='nominal'>
+      </column>
+      <layout dim-ordering='alphabetic' dim-percentage='0.5' measure-ordering='alphabetic' measure-percentage='0.4' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='birthwt_lab12_2' name='textscan.42106.866740949074' />
+          </datasources>
+          <datasource-dependencies datasource='textscan.42106.866740949074'>
+            <column caption='BWT RANK' datatype='integer' name='[Calculation_8410412205326660]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='RANK(SUM([bwt] ),&apos;asc&apos; )' scope-isolation='false'>
+                <table-calc ordering-type='Rows' />
+              </calculation>
+            </column>
+            <column datatype='integer' name='[ID]' role='dimension' type='ordinal'>
+            </column>
+            <column caption='Bwt' datatype='integer' name='[bwt]' role='measure' type='quantitative'>
+            </column>
+            <column-instance column='[ID]' derivation='None' name='[none:ID:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[bwt]' derivation='None' name='[none:bwt:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[race]' derivation='None' name='[none:race:nk]' pivot='key' type='nominal' />
+            <column caption='Race' datatype='string' name='[race]' role='dimension' type='nominal'>
+            </column>
+            <column-instance column='[Calculation_8410412205326660]' derivation='User' name='[usr:Calculation_8410412205326660:qk:5]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Field'>
+                <order field='[textscan.42106.866740949074].[ID]' />
+                <order field='[textscan.42106.866740949074].[bwt]' />
+              </table-calc>
+            </column-instance>
+          </datasource-dependencies>
+          <sort class='manual' column='[textscan.42106.866740949074].[none:ID:ok]' direction='ASC'>
+            <dictionary>
+              <bucket>%all%</bucket>
+              <bucket>111</bucket>
+              <bucket>123</bucket>
+              <bucket>131</bucket>
+              <bucket>107</bucket>
+              <bucket>121</bucket>
+              <bucket>130</bucket>
+              <bucket>80</bucket>
+              <bucket>119</bucket>
+              <bucket>129</bucket>
+              <bucket>77</bucket>
+              <bucket>117</bucket>
+              <bucket>128</bucket>
+              <bucket>75</bucket>
+              <bucket>113</bucket>
+              <bucket>127</bucket>
+              <bucket>71</bucket>
+              <bucket>104</bucket>
+              <bucket>106</bucket>
+              <bucket>126</bucket>
+              <bucket>44</bucket>
+              <bucket>125</bucket>
+              <bucket>42</bucket>
+              <bucket>93</bucket>
+              <bucket>124</bucket>
+              <bucket>36</bucket>
+              <bucket>87</bucket>
+              <bucket>88</bucket>
+              <bucket>122</bucket>
+              <bucket>34</bucket>
+              <bucket>120</bucket>
+              <bucket>30</bucket>
+              <bucket>31</bucket>
+              <bucket>32</bucket>
+              <bucket>84</bucket>
+              <bucket>86</bucket>
+              <bucket>118</bucket>
+              <bucket>116</bucket>
+              <bucket>85</bucket>
+              <bucket>115</bucket>
+              <bucket>18</bucket>
+              <bucket>74</bucket>
+              <bucket>114</bucket>
+              <bucket>2</bucket>
+              <bucket>73</bucket>
+              <bucket>112</bucket>
+              <bucket>69</bucket>
+              <bucket>110</bucket>
+              <bucket>189</bucket>
+              <bucket>67</bucket>
+              <bucket>68</bucket>
+              <bucket>109</bucket>
+              <bucket>181</bucket>
+              <bucket>108</bucket>
+              <bucket>173</bucket>
+              <bucket>174</bucket>
+              <bucket>66</bucket>
+              <bucket>105</bucket>
+              <bucket>63</bucket>
+              <bucket>64</bucket>
+              <bucket>103</bucket>
+              <bucket>172</bucket>
+              <bucket>102</bucket>
+              <bucket>166</bucket>
+              <bucket>61</bucket>
+              <bucket>62</bucket>
+              <bucket>101</bucket>
+              <bucket>160</bucket>
+              <bucket>97</bucket>
+              <bucket>98</bucket>
+              <bucket>99</bucket>
+              <bucket>100</bucket>
+              <bucket>158</bucket>
+              <bucket>58</bucket>
+              <bucket>59</bucket>
+              <bucket>60</bucket>
+              <bucket>148</bucket>
+              <bucket>139</bucket>
+              <bucket>134</bucket>
+              <bucket>56</bucket>
+              <bucket>57</bucket>
+              <bucket>96</bucket>
+              <bucket>95</bucket>
+              <bucket>53</bucket>
+              <bucket>94</bucket>
+              <bucket>49</bucket>
+              <bucket>51</bucket>
+              <bucket>91</bucket>
+              <bucket>92</bucket>
+              <bucket>26</bucket>
+              <bucket>90</bucket>
+              <bucket>25</bucket>
+              <bucket>89</bucket>
+              <bucket>22</bucket>
+              <bucket>83</bucket>
+              <bucket>20</bucket>
+              <bucket>82</bucket>
+              <bucket>14</bucket>
+              <bucket>81</bucket>
+              <bucket>15</bucket>
+              <bucket>79</bucket>
+              <bucket>13</bucket>
+              <bucket>78</bucket>
+              <bucket>12</bucket>
+              <bucket>76</bucket>
+              <bucket>9</bucket>
+              <bucket>70</bucket>
+              <bucket>72</bucket>
+              <bucket>7</bucket>
+              <bucket>3</bucket>
+              <bucket>65</bucket>
+              <bucket>55</bucket>
+              <bucket>187</bucket>
+              <bucket>188</bucket>
+              <bucket>54</bucket>
+              <bucket>52</bucket>
+              <bucket>185</bucket>
+              <bucket>50</bucket>
+              <bucket>183</bucket>
+              <bucket>48</bucket>
+              <bucket>182</bucket>
+              <bucket>43</bucket>
+              <bucket>45</bucket>
+              <bucket>46</bucket>
+              <bucket>47</bucket>
+              <bucket>176</bucket>
+              <bucket>175</bucket>
+              <bucket>169</bucket>
+              <bucket>168</bucket>
+              <bucket>41</bucket>
+              <bucket>165</bucket>
+              <bucket>40</bucket>
+              <bucket>163</bucket>
+              <bucket>164</bucket>
+              <bucket>35</bucket>
+              <bucket>37</bucket>
+              <bucket>38</bucket>
+              <bucket>161</bucket>
+              <bucket>157</bucket>
+              <bucket>33</bucket>
+              <bucket>151</bucket>
+              <bucket>152</bucket>
+              <bucket>39</bucket>
+              <bucket>29</bucket>
+              <bucket>150</bucket>
+              <bucket>28</bucket>
+              <bucket>145</bucket>
+              <bucket>27</bucket>
+              <bucket>144</bucket>
+              <bucket>24</bucket>
+              <bucket>140</bucket>
+              <bucket>23</bucket>
+              <bucket>137</bucket>
+              <bucket>138</bucket>
+              <bucket>21</bucket>
+              <bucket>19</bucket>
+              <bucket>136</bucket>
+              <bucket>16</bucket>
+              <bucket>17</bucket>
+              <bucket>135</bucket>
+              <bucket>132</bucket>
+              <bucket>11</bucket>
+              <bucket>10</bucket>
+              <bucket>8</bucket>
+              <bucket>6</bucket>
+              <bucket>5</bucket>
+              <bucket>4</bucket>
+              <bucket>190</bucket>
+              <bucket>184</bucket>
+              <bucket>186</bucket>
+              <bucket>180</bucket>
+              <bucket>179</bucket>
+              <bucket>177</bucket>
+              <bucket>178</bucket>
+              <bucket>170</bucket>
+              <bucket>171</bucket>
+              <bucket>167</bucket>
+              <bucket>162</bucket>
+              <bucket>159</bucket>
+              <bucket>156</bucket>
+              <bucket>154</bucket>
+              <bucket>155</bucket>
+              <bucket>153</bucket>
+              <bucket>149</bucket>
+              <bucket>146</bucket>
+              <bucket>147</bucket>
+              <bucket>143</bucket>
+              <bucket>142</bucket>
+              <bucket>141</bucket>
+              <bucket>133</bucket>
+            </dictionary>
+          </sort>
+          <sort class='manual' column='[textscan.42106.866740949074].[none:bwt:ok]' direction='ASC'>
+            <dictionary>
+              <bucket>2410</bucket>
+              <bucket>1928</bucket>
+              <bucket>3062</bucket>
+              <bucket>2466</bucket>
+              <bucket>2495</bucket>
+              <bucket>2084</bucket>
+              <bucket>2977</bucket>
+              <bucket>2353</bucket>
+              <bucket>2769</bucket>
+              <bucket>1588</bucket>
+              <bucket>2055</bucket>
+              <bucket>2637</bucket>
+              <bucket>2187</bucket>
+              <bucket>3090</bucket>
+              <bucket>2240</bucket>
+              <bucket>2296</bucket>
+              <bucket>2835</bucket>
+              <bucket>1021</bucket>
+              <bucket>1790</bucket>
+              <bucket>1818</bucket>
+              <bucket>1885</bucket>
+              <bucket>2877</bucket>
+              <bucket>3651</bucket>
+              <bucket>2920</bucket>
+              <bucket>1936</bucket>
+              <bucket>2082</bucket>
+              <bucket>2100</bucket>
+              <bucket>3317</bucket>
+              <bucket>2381</bucket>
+              <bucket>2225</bucket>
+              <bucket>2414</bucket>
+              <bucket>2424</bucket>
+              <bucket>2557</bucket>
+              <bucket>2594</bucket>
+              <bucket>3203</bucket>
+              <bucket>2600</bucket>
+              <bucket>2663</bucket>
+              <bucket>2665</bucket>
+              <bucket>709</bucket>
+              <bucket>2948</bucket>
+              <bucket>1330</bucket>
+              <bucket>2782</bucket>
+              <bucket>1474</bucket>
+              <bucket>2821</bucket>
+              <bucket>2836</bucket>
+              <bucket>1729</bucket>
+              <bucket>1893</bucket>
+              <bucket>3614</bucket>
+              <bucket>2906</bucket>
+              <bucket>1899</bucket>
+              <bucket>1970</bucket>
+              <bucket>2922</bucket>
+              <bucket>2125</bucket>
+              <bucket>2211</bucket>
+              <bucket>3175</bucket>
+              <bucket>3005</bucket>
+              <bucket>3033</bucket>
+              <bucket>2282</bucket>
+              <bucket>2301</bucket>
+              <bucket>2325</bucket>
+              <bucket>3080</bucket>
+              <bucket>2442</bucket>
+              <bucket>2450</bucket>
+              <bucket>3100</bucket>
+              <bucket>3132</bucket>
+              <bucket>3374</bucket>
+              <bucket>3225</bucket>
+              <bucket>3147</bucket>
+              <bucket>3234</bucket>
+              <bucket>2551</bucket>
+              <bucket>2622</bucket>
+              <bucket>3232</bucket>
+              <bucket>2722</bucket>
+              <bucket>3416</bucket>
+              <bucket>2733</bucket>
+              <bucket>3430</bucket>
+              <bucket>3629</bucket>
+              <bucket>2750</bucket>
+              <bucket>3459</bucket>
+              <bucket>2751</bucket>
+              <bucket>3460</bucket>
+              <bucket>2807</bucket>
+              <bucket>3473</bucket>
+              <bucket>3274</bucket>
+              <bucket>3586</bucket>
+              <bucket>2863</bucket>
+              <bucket>3600</bucket>
+              <bucket>3770</bucket>
+              <bucket>3104</bucket>
+              <bucket>3637</bucket>
+              <bucket>3643</bucket>
+              <bucket>1135</bucket>
+              <bucket>1701</bucket>
+              <bucket>2126</bucket>
+              <bucket>3699</bucket>
+              <bucket>3544</bucket>
+              <bucket>3728</bucket>
+              <bucket>3756</bucket>
+              <bucket>2367</bucket>
+              <bucket>3884</bucket>
+              <bucket>3260</bucket>
+              <bucket>3799</bucket>
+              <bucket>3572</bucket>
+              <bucket>3827</bucket>
+              <bucket>2438</bucket>
+              <bucket>3856</bucket>
+              <bucket>3860</bucket>
+              <bucket>3303</bucket>
+              <bucket>3941</bucket>
+              <bucket>3321</bucket>
+              <bucket>2523</bucket>
+              <bucket>3331</bucket>
+              <bucket>2778</bucket>
+              <bucket>3912</bucket>
+              <bucket>3487</bucket>
+              <bucket>3940</bucket>
+              <bucket>3997</bucket>
+              <bucket>3983</bucket>
+              <bucket>4054</bucket>
+              <bucket>3042</bucket>
+              <bucket>4111</bucket>
+              <bucket>4153</bucket>
+              <bucket>4167</bucket>
+              <bucket>4174</bucket>
+              <bucket>3402</bucket>
+              <bucket>4238</bucket>
+              <bucket>3969</bucket>
+              <bucket>3444</bucket>
+              <bucket>4593</bucket>
+              <bucket>3790</bucket>
+              <bucket>4990</bucket>
+              <bucket>%all%</bucket>
+            </dictionary>
+          </sort>
+          <aggregation value='false' />
+        </view>
+        <style>
+        </style>
+        <panes>
+          <pane>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[textscan.42106.866740949074].[usr:Calculation_8410412205326660:qk:5]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([textscan.42106.866740949074].[none:race:nk] / ([textscan.42106.866740949074].[none:ID:ok] / [textscan.42106.866740949074].[none:bwt:ok]))</rows>
+        <cols></cols>
+      </table>
+    </worksheet>
+  </worksheets>
+  <windows>
+    <window class='schema' source-height='-1' />
+    <window auto-hidden='0' class='worksheet' maximized='1' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='31'>
+            <card type='columns' />
+          </strip>
+          <strip size='31'>
+            <card type='rows' />
+          </strip>
+        </edge>
+      </cards>
+      <highlight>
+        <color-one-way>
+          <field>[textscan.42106.866740949074].[none:ID:ok]</field>
+          <field>[textscan.42106.866740949074].[none:bwt:ok]</field>
+          <field>[textscan.42106.866740949074].[none:race:nk]</field>
+        </color-one-way>
+      </highlight>
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+      zVEAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
