@@ -31,10 +31,10 @@ source("../01 SQL Crosstabs/crosstab_12_2.R", echo = TRUE)
 ![](./proj2_12_2.jpg)      
 
 
-#3rd Requirement for nth value
+#3rd Requirement cume dist
 ```{r}
-source("../01 SQL Crosstabs/crosstab_12_3.R", echo = TRUE)
+source("../01 SQL Crosstabs/9 LR.R", echo = TRUE)
 ```
 
-![](./proj2_12_3.jpg)      
+![](./Cume_Dist.jpg)    
 
