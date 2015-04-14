@@ -1,0 +1,25 @@
+---
+title: "Project 5 Html"
+author: "Willie, Leo, Lauren"
+date: "Monday, April 13, 2015"
+output: html_document
+---
+
+#Requirement 9
+```{r}
+source("../01 SQL Crosstabs/crosstab_9a.R", echo = TRUE)
+```
+
+![](./proj2_9a.jpg)      
+
+
+#Requrements 12
+
+#2nd Requirement rank()last_value/max_value and difference
+```{r}
+source("../01 SQL Crosstabs/crosstab_12_2.R", echo = TRUE)
+```
+
+
+![](./proj2_12_2.jpg)      
+
